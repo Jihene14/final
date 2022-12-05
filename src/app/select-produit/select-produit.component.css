@@ -1,0 +1,60 @@
+.small-img-group{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor:pointer;
+}
+.sproduct select{
+display :block;
+padding: 5px 10px;
+}
+.sproduct input{
+    width:43px;
+    height:40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right:60px;
+}
+.sproduct input:focus{
+    outline: none;
+}
+.buy-btn{
+    background-color:#090909;;
+    opacity:1;
+    transition:0.3s all;
+    margin-left: 80px;
+    height:40px;
+    color:white;
+}
+label{
+    margin-right:40px;
+}
+#dt{
+    margin-top: 30px;
+}
+.card{
+    width: 100%;
+}
+.cmtr{
+    margin-top: 50px;
+    margin-left: 60%;
+}
+.cmtr h5{
+    margin-left: -28px;
+
+}
+.card input{
+    margin-top: 10px;
+    width: 100%;
+}
+textarea{
+    margin-top: 10px;
+    width: 100%;  
+}
+button{
+    
+    width: 40%;
+    font-size: 19px;
+}

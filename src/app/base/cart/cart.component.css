@@ -1,0 +1,19 @@
+.panier{
+   height: 90vh;
+   margin:25px;
+   padding: 25px
+}
+.center {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+   
+  
+}
+
+.center img{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}

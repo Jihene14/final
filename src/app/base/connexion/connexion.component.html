@@ -1,0 +1,47 @@
+<app-menu></app-menu>
+<div
+  class="bg-image"
+  style="
+    background-image: url('/../assets/backConnexion.jpg');
+    height: 100vh;
+  "
+  >
+<div class="container-fluid">
+  <div class="row mt-5">
+    <div class="col"></div>
+    <div class="col-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <h4 class="text-dark text-muted">Connexion</h4>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">adresse mail</label>
+              <input type="email" class="form-control" name="email">
+              <div class="form-text">il ne faut pas partager votre adresse mail avec un autre personne</div>
+            </div>
+            <div class="mb-3">
+              <label  class="form-label">Mot de passe</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            
+            <button type="button" class="btn btn-info">connexion</button>
+            <div class="row">
+              <div class="col-md-6">
+                   <a  style="text-decoration:none;" href="/inscription">Créer nouveau compte</a>
+              </div>
+              <div class="col-md-6">
+                <a href="#"  class="text-dark" style="text-decoration:none;"> oublier mot de passe  </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+</div>
+<app-footer></app-footer>
+

@@ -1,0 +1,22 @@
+#logo{
+    width: 300px;
+    position: relative;
+    left: 39%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: lightpink;
+    border-radius: 20px;
+    animation: logo ;
+}
+.item{
+    margin-left:300px;
+}
+.accueil-container{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+div{
+    background-image: url('/assets/back2.jpg ');
+    height:100vh;
+}

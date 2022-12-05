@@ -1,0 +1,62 @@
+<section class="container sproduct my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" [src]="prod.image" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img [src]="" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="#" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="#" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="#" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+            <h6>{{prod.categorie}}</h6>
+            <h3 class="py-4">{{prod.libelle}}</h3>
+            <h2>{{prod.prix}}</h2>
+            <select class="my-3">
+                <option>parfum de fleurs roses</option>
+                <option>parfum de fraise</option>
+                <option>parfum de framboise</option> 
+            </select>
+            <label>Quantité: </label>
+            <input type="number" value="1" >
+            <button class="btn btn-dark" (click)="addpanier()"> ajouter au panier <i class="fa fa-shopping-bag"></i></button>
+            <h4 class="mt-5 mb-5">Détails du produits</h4>
+            <span> {{prod.details}}</span>
+            
+            <h4 id="dt">Date de deposer </h4>
+            <span>{{prod.date_deposer}}</span>
+        </div>
+    </div>
+    <div class="cmtr">
+    <!--<button routerLink="/comment">ajouter une commentaire</button>-->
+    <h5>ajouter commentaire</h5>
+    <div class="card">
+    <form [formGroup]="commentform" (ngSubmit)="onSubmit()" class="form-group">
+        
+        <input type="text"  formControlName="username" placeholder="enter username" class="form-control mx-sm-3" ><br>
+        <textarea  formControlName="commentaire" rows="3" placeholder="write a comment" class="form-control mx-sm-3"></textarea><br>
+        <button  class="btn btn-primary" type="submit">send<i class="fa-solid fa-paper-plane"></i></button>
+    </form>
+    <div class="card-body">
+        
+       Nom d'utilisateur: {{pubcommentaire.username|deco }}<br>
+       commentaire: {{pubcommentaire.commentaire}}
+        </div>
+    </div>
+    
+    
+    
+    
+
+    
+ </div>
+</section>

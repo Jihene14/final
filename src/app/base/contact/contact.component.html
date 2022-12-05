@@ -1,0 +1,39 @@
+<app-menu></app-menu>
+<div class="container" style="background-image: url(assets/backContact.jpg);height: 100vh">
+    <div class="contact-header">
+     <h2>Vous Avez Des Questions?</h2>
+    <div class="center-text">
+     <span>Merci de votre intérêt pour notre service, veuillez remplir le formulaire ci-dessous ou nous envoyer un e-mail sur <a href="enclatante@gmail.com">enclatante@gmail.com</a> et nous vous répondrons rapidement concernant vos demandes.</span></div>
+    </div>
+ <img src="assets/contactus.png" alt="contactus" width="300px">
+ <div class="contact-section" >
+     <h2>Nos Contact</h2>
+     <ul>
+         <li><i class="fas fa-phone"></i>(+216) 54 000 125</li>
+         <li href="enclatante@gmail.com"><i class="far fa-envelope-open"></i>enclatante@gmail.com</li>
+         <li> <i class="fas fa-map-marker-alt" aria-hidden="true"></i>33 rue entreprenariat Charguia</li>
+     </ul>
+ 
+ </div>
+ <div class="card">
+ <div class="card-body">
+     <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+        <input type="text" name="lname" class="input" [(ngModel)]="lname" #lnameinput="ngModel" placeholder="votre nom" required>
+        <span class="is-error" *ngIf="lnameinput.invalid && lnameinput.touched">*ce champ est obligatoire</span><br>
+
+         <input type="text" name="name" class="input" [(ngModel)]="name" #nameinput="ngModel" placeholder=" votre prenom" required>
+         <span class="is-error" *ngIf="nameinput.invalid && nameinput.touched">*ce champ est obligatoire</span><br>
+
+         <input type="email" name="mail" class="email" [(ngModel)]="mail" #email="ngModel" placeholder="Exemple.@gmail.com" required>
+         <span class="is-error" *ngIf="email.invalid && email.touched">*entrez un email valid</span><br>
+         <textarea name="message" class="textarea" [(ngModel)]="message" placeholder="message" rows="5"
+         cols="50"  ></textarea><br>
+         <button type="submit" [disabled]="contactForm.invalid">envoyer un message</button>
+         <p>votre vie privée est très importante pour nous. </p>
+     </form>
+ </div>
+ 
+ </div>
+ </div>
+ <app-footer></app-footer>
+ 

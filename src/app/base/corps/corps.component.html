@@ -1,0 +1,18 @@
+<app-menu></app-menu>
+<div class="container" >
+    <div *ngFor="let p of prod">
+        <div class="row" >
+        <div class="card" [routerLink]="['/produit', p.categorie,p.id]">
+            <div class="discount" *ngIf="p.promo==true"><img src="assets\discount.png" width="10px"></div>
+            <img [src]="p.image" class="image">
+            <h5>{{p.libelle}}</h5>
+            <p style="white-space: nowrap;overflow:hidden ; text-overflow: ellipsis; max-width: 100ch;">{{p.details}}</p>
+            <p><strong>Prix:</strong>{{p.prix|currency :'TND'}}</p>
+            
+        </div>
+        </div>
+    </div>
+    </div>
+    <app-footer></app-footer>
+
+

@@ -1,0 +1,56 @@
+<!--affichage de produits si non vide-->
+<app-menu></app-menu>
+<ng-container *ngIf="prod.length!=0">
+<div class="table">
+    <div class="prod-panier">
+        <table class="table table-responsive">
+            <thead>
+               <tr>
+                <th>id</th>
+                <th>Libelle</th>
+                <th>Image</th>
+                <th>Details</th>
+                <th>prix</th>
+                <th>Quantité</th>
+                <th>Total</th>
+                <th>Action</th>
+               </tr>
+            </thead>
+            <tbody>
+            <tr *ngFor="let p of prod; let i=index">
+                <td>{{i+1}}</td>
+                <td>{{p.libelle}}</td>
+                <td><img [src]="p.image" width="100px"></td>
+                <td>{{p.details}}</td>
+                <td>{{p.prix}}</td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button (click)="removeproduit(p)" class="btn btn-danger"><i class=" fas fa-trash-alt" ></i></button>
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="5"></td>
+                    <td><button class="btn btn-danger" (click)="deletecart()">effacer tous les articles</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</ng-container>
+<!--panier vide -->
+<ng-container *ngIf="prod.length==0">
+<div class="container" >
+    <div class="panier">
+       <h5 class="cart-title">Mon panier</h5> 
+    </div>
+    <div class="center">
+        <img src="assets\paniervide.png" width="80%" alt="panier">
+        <h4>Il n'y a plus d'articles dans votre panier!</h4>
+      
+        <button routerLink="/accueil"class="btn btn-primary">Consulter Nos Articles</button>
+    </div>
+</div>
+</ng-container>
+<app-footer></app-footer>

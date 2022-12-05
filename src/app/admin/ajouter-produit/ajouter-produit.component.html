@@ -1,0 +1,48 @@
+<div class="div">
+    <h1>Ajouter Produit</h1>
+    <div>
+        <form [formGroup]="productForm"   class="form-group">
+            <div class="row">
+                <div class="col mb-3">
+                    <label>id</label><br>
+                    <input type="number" formControlName="id" placeholder=" change identifier" class="form-control"><br>
+                </div>
+                <div class="col mb-3">
+                    <label>categorie</label><br>
+                    <select class="form-select" aria-label="Default select example" formControlName="categorie">
+                        
+                        <option value="visage">visage</option>
+                        <option value="corps">corps</option>
+                        <option value="cheveux">cheveux</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-3">
+                    <label>libelle</label><br>
+                    <input type="text" formControlName="libelle" placeholder="change libelle" class="form-control"><br>
+                </div>
+                <div class="col mb-3">
+                    <label> prix</label><br>
+                    <input type="number" formControlName="prix" placeholder="add another price"
+                        class="form-control"><br>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <label>date deposer</label><br>
+                <input type="date" formControlName="datedeposer" class="form-control"><br>
+            </div>
+            <div class="col mb-3">
+                Promo: <br>
+                <input type="radio" value="true">oui
+                <input type="radio" value="false">Non
+            </div>
+            <div class="col mb-3">
+                <label>details</label><br>
+                <textarea rows="4" formControlName="details" placeholder=" change some details about the product"
+                    class="form-control"></textarea><br>
+            </div>
+        </form>
+        <button (click)="onAjouter()">Ajouter</button>
+    </div>
+</div>

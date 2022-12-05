@@ -1,0 +1,169 @@
+{
+  "Visage": [
+    {
+      "id": 1,
+      "categorie": "Visage",
+      "image": "assets/visage/eyeserum.jpg",
+      "libelle": "essence super serum",
+      "details": "Sérum à l'acide hyaluronique : correction rides, fermeté, taches Toutes peaux,95% d'ingrédients d'origine naturelle",
+      "prix": "37.950",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+      
+    },
+    {
+      "id": 2,
+      "categorie": "Visage",
+      "image": "assets/visage/visage2.jpg",
+      "libelle": "SVR hydratation legere",
+      "details": "HYDRALIANE Légère est la première crème hydratante formulée avec 60% d’eau physio-adaptée qui infuse votre peau en continu : 24h d’hydratation, de confort et d’éclat.Sa texture fraîche et non grasse convient aux peaux sensibles normales à mixtes.",
+      "prix": "36.800",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 3,
+      "categorie": "Visage",
+      "image": "assets/visage/visage3.jpg",
+      "libelle": "facial sheet mask",
+      "details": "This sheet mask is not only super energizing, it also nourishes your skin deeply. The skin is left feeling revitalized and naturally beautiful.",
+      "prix": "42.900",
+      "promo": false,
+     "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 4,
+      "categorie": "Visage",
+      "image": "assets/visage/gommagecarbon.jpg",
+      "libelle": "petite maison masque peel-off charbon",
+      "details": "Petite Maison Masque charbon Visage aide à adoucir et rafraîchir votre peau. Il aide à nettoyer en douceur votre peau et à désobstruer les pores. Convient à tous les types de peau.",
+      "prix": "12.900",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 5,
+      "categorie": "Visage",
+      "image": "assets/visage/visage5.jpg",
+      "libelle": "créme hydratante cetaphil",
+      "details": "La crème hydratante Cetaphil convient aussi bien pour le corps que pour le visage. Elle est à destination des peaux sensibles sèches à très sèches",
+      "prix": "13.500",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    }
+  ],
+  "Cheveux": [
+    {
+      "id": 6,
+      "categorie": "Cheveux",
+      "image": "assets/cheveux/cheveux1.jpg",
+      "libelle": "bain d'huile",
+      "details": "Ce soin nutritif vous assure douceur, brillance et volume, une hydratation en profondeur et une protection contre les agressions du quotidien.Produit à base d’huiles végétales Hypoallergénique et testé dermatologiquement",
+      "prix": "20.400",
+      "promo": false,
+     "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 7,
+      "categorie": "Cheveux",
+      "image": "assets/cheveux/cheveux2.jpg",
+      "libelle": "créme nutritive",
+      "details": "Ce baume nutrition d'exception a été conçu pour traiter et texturiser les cheveux sévèrement sensibilisés.",
+      "prix": "30.750",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 8,
+      "categorie": "Cheveux",
+      "image": "assets/cheveux/cheveux3.jpg",
+      "libelle": "shompoing hydratant",
+      "details": "Ce shampooing sans sulfate, au PH neutre composé d'eau de riz BIO et parfumé au doux parfum de pêche blanche s'invite dans ta salle de bain pour un moment cocooning",
+      "prix": "16.850",
+      "promo": false,
+     "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 9,
+      "categorie": "Cheveux",
+      "image": "assets/cheveux/cheveux4.jpg",
+      "libelle": "gel pur aloé véra",
+      "details": "E GEL IDÉAL POUR UNE PROTECTION CONTRE L'ACIDITÉ : Notre Gel à Boire Pur’Aloé est un jus épaissi par une gomme naturelle, ce qui lui permet de transiter plus longtemps sur les parois intestinales.",
+      "prix": "22.650",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 10,
+      "categorie": "Cheveux",
+      "image": "assets/cheveux/cheveux5.jpg",
+      "libelle": "masque riche des vitamines",
+      "details": "93% d’ingrédients d’origine naturelle , les masques vitamines offrent un vrai « shot » de soin vitaminé et des résultats visibles dès la 1ere utilisation !",
+      "prix": "14.600",
+      "promo": false,
+     "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    }
+  ],
+  "Corps": [
+    {
+      "id": 11,
+      "categorie": "Corps",
+      "image": "assets/corps/corps1.jpg",
+      "libelle": "créme hydrantant sublime",
+      "details": "Conçue pour sublimer votre routine beauté durant l’été, cette crème hydratante sans rinçage au parfum sensoriel est enrichie en vitamine E. Appliquée sur les longueurs et les pointes, elle protège du dessèchement et prévient l’apparition de frisottis pendant 24h pour un fini lisse et soyeux. Sa texture ultra-légère, non grasse et multi-usages, est idéale pour une utilisation quotidienne sur cheveux secs ou humides.",
+      "prix": "11.450",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 12,
+      "categorie": "Corps",
+      "image": "assets/corps/corps2.jpg",
+      "libelle": "shower gel",
+      "details": "Shower gels with 98% natural ingredients and no dyes. Bring scented bliss into your bathroom.",
+      "prix": "15.400",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 13,
+      "categorie": "Corps",
+      "image": "assets/corps/corps3.jpg",
+      "libelle": "gel corps aloe véra",
+      "details": "Notre gel réparateur Aloe Vera certifié COSMOS Organic répare, apaise et hydrate en profondeur la peau . Le gel aloe vera est un indispensable beauté et soin. Gel hydratant à ne pas rincer.",
+      "prix": "14.600",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 14,
+      "categorie": "Corps",
+      "image": "assets/corps/corps4.jpg",
+      "libelle": "lait de douche",
+      "details": "vec sa texture onctueuse, sa formule nourrissante et son délicieux parfum, le Lait de douche Fleur de Miel transforme la douche en un véritable rituel de plaisir et de détente.Vous aimez le parfum “Fleur de Miel” du Lait de douche ? Prolongez le plaisir en hydratant votre peau après la douche avec la Crème pour le corps Fleur de Miel.",
+      "prix": "11.200",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    },
+    {
+      "id": 15,
+      "categorie": "Corps",
+      "image": "assets/corps/corps5.jpg",
+      "libelle": "gommage corps +thé",
+      "details": "Exfoliation drainante et détoxifiante grâce à ce gommage sucre associant des extraits de feuilles de thé vert matcha à de l’huile de noix de coco. À l’image de sa texture, son parfum est vert, frais et léger. Idéal pour les peaux sensibles qui redoutent le côté abrasif du gommage. Parfait pour accompagner votre cure détox printanière !",
+      "prix": "18.640",
+      "promo": false,
+      "comment":[{"id":1,"username":"john","commentaire":"merci"}]
+    }
+  ],
+  "admin": [
+    {
+      "email": "jihene@gmail.com",
+      "password": "jihene"
+    },
+    {
+      "email": "eya@gmail.com",
+      "password": "eya"
+    }
+  ]
+}

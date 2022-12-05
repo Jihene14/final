@@ -1,0 +1,14 @@
+
+.search-icon{
+    position: absolute;
+    z-index:10;
+    right:5%;
+    
+}
+
+.nav-item a:hover{
+    color:darkcyan;
+    background-color:lightpink;
+  border-radius: 7px;
+
+}
